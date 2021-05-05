@@ -1,0 +1,6 @@
+framework module Pods_TinodsTest {
+  umbrella header "Pods-TinodsTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
