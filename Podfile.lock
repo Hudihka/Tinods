@@ -101,7 +101,7 @@ DEPENDENCIES:
   - PhoneNumberKit (~> 3.1)
   - SQLite.swift (~> 0.12.2)
   - SwiftKeychainWrapper (~> 3.2)
-  - SwiftWebSocket (~> 2.7.0)
+  - SwiftWebSocket
 
 SPEC REPOS:
   trunk:
@@ -142,6 +142,6 @@ SPEC CHECKSUMS:
   SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
   SwiftWebSocket: 612c9729fd503cb6b0b8b45390c788686dac306f
 
-PODFILE CHECKSUM: f251f52987bad40b3face12d6380bfaca29e402d
+PODFILE CHECKSUM: 5112dc44bb58bc85c26cd7c240694f2fe099fcd4
 
 COCOAPODS: 1.10.1

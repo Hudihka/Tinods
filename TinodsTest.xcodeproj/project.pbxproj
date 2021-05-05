@@ -86,6 +86,40 @@
 		B239691F26424DD200389945 /* SettingsSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D026424DD100389945 /* SettingsSecurityViewController.swift */; };
 		B239692026424DD200389945 /* AddByIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D126424DD100389945 /* AddByIDViewController.swift */; };
 		B239692126424DD200389945 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D226424DD100389945 /* MessageView.swift */; };
+		B23969472642524600389945 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239692C2642524600389945 /* Storage.swift */; };
+		B23969482642524600389945 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239692D2642524600389945 /* Connection.swift */; };
+		B23969492642524600389945 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239692E2642524600389945 /* Log.swift */; };
+		B239694A2642524600389945 /* RFC3339Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239692F2642524600389945 /* RFC3339Format.swift */; };
+		B239694B2642524600389945 /* FndTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969302642524600389945 /* FndTopic.swift */; };
+		B239694C2642524600389945 /* Tinode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969312642524600389945 /* Tinode.swift */; };
+		B239694D2642524600389945 /* MeTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969322642524600389945 /* MeTopic.swift */; };
+		B239694E2642524600389945 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969332642524600389945 /* User.swift */; };
+		B239694F2642524600389945 /* ComTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969352642524600389945 /* ComTopic.swift */; };
+		B23969502642524600389945 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969372642524600389945 /* JSONValue.swift */; };
+		B23969512642524600389945 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969382642524600389945 /* Description.swift */; };
+		B23969522642524600389945 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969392642524600389945 /* VCard.swift */; };
+		B23969532642524600389945 /* Acs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693A2642524600389945 /* Acs.swift */; };
+		B23969542642524600389945 /* ClientMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693B2642524600389945 /* ClientMessages.swift */; };
+		B23969552642524600389945 /* AcsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693C2642524600389945 /* AcsHelper.swift */; };
+		B23969562642524600389945 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693D2642524600389945 /* Subscription.swift */; };
+		B23969572642524600389945 /* Defacs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693E2642524600389945 /* Defacs.swift */; };
+		B23969582642524600389945 /* Drafty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239693F2642524600389945 /* Drafty.swift */; };
+		B23969592642524600389945 /* MsgRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969402642524600389945 /* MsgRange.swift */; };
+		B239695A2642524600389945 /* ServerMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969412642524600389945 /* ServerMessages.swift */; };
+		B239695B2642524600389945 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969422642524600389945 /* Types.swift */; };
+		B239695C2642524600389945 /* AuthScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969432642524600389945 /* AuthScheme.swift */; };
+		B239695D2642524600389945 /* PromisedReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969442642524600389945 /* PromisedReply.swift */; };
+		B239695F2642524600389945 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969462642524600389945 /* Topic.swift */; };
+		B239696D2642525E00389945 /* UserDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969622642525E00389945 /* UserDb.swift */; };
+		B239696E2642525E00389945 /* ConnectionSettingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969632642525E00389945 /* ConnectionSettingsHelper.swift */; };
+		B239696F2642525E00389945 /* BaseDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969642642525E00389945 /* BaseDb.swift */; };
+		B23969702642525E00389945 /* StoredMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969652642525E00389945 /* StoredMessage.swift */; };
+		B23969712642525E00389945 /* SqlStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969662642525E00389945 /* SqlStore.swift */; };
+		B23969722642525E00389945 /* MessageDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969672642525E00389945 /* MessageDb.swift */; };
+		B23969732642525E00389945 /* SubscriberDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969682642525E00389945 /* SubscriberDb.swift */; };
+		B23969742642525E00389945 /* AccountDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23969692642525E00389945 /* AccountDb.swift */; };
+		B23969752642525E00389945 /* TopicDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239696A2642525E00389945 /* TopicDb.swift */; };
+		B23969762642525E00389945 /* SharedUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239696B2642525E00389945 /* SharedUtils.swift */; };
 		C1031879751D039770B363BB /* Pods_TinodsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FE984F893C188F10A6D232 /* Pods_TinodsTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -177,6 +211,42 @@
 		B23968D026424DD100389945 /* SettingsSecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSecurityViewController.swift; sourceTree = "<group>"; };
 		B23968D126424DD100389945 /* AddByIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddByIDViewController.swift; sourceTree = "<group>"; };
 		B23968D226424DD100389945 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		B239692C2642524600389945 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B239692D2642524600389945 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		B239692E2642524600389945 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		B239692F2642524600389945 /* RFC3339Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFC3339Format.swift; sourceTree = "<group>"; };
+		B23969302642524600389945 /* FndTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FndTopic.swift; sourceTree = "<group>"; };
+		B23969312642524600389945 /* Tinode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tinode.swift; sourceTree = "<group>"; };
+		B23969322642524600389945 /* MeTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTopic.swift; sourceTree = "<group>"; };
+		B23969332642524600389945 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B23969342642524600389945 /* TinodeSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinodeSDK.h; sourceTree = "<group>"; };
+		B23969352642524600389945 /* ComTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComTopic.swift; sourceTree = "<group>"; };
+		B23969372642524600389945 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		B23969382642524600389945 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		B23969392642524600389945 /* VCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		B239693A2642524600389945 /* Acs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acs.swift; sourceTree = "<group>"; };
+		B239693B2642524600389945 /* ClientMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientMessages.swift; sourceTree = "<group>"; };
+		B239693C2642524600389945 /* AcsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcsHelper.swift; sourceTree = "<group>"; };
+		B239693D2642524600389945 /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		B239693E2642524600389945 /* Defacs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defacs.swift; sourceTree = "<group>"; };
+		B239693F2642524600389945 /* Drafty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drafty.swift; sourceTree = "<group>"; };
+		B23969402642524600389945 /* MsgRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgRange.swift; sourceTree = "<group>"; };
+		B23969412642524600389945 /* ServerMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerMessages.swift; sourceTree = "<group>"; };
+		B23969422642524600389945 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		B23969432642524600389945 /* AuthScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthScheme.swift; sourceTree = "<group>"; };
+		B23969442642524600389945 /* PromisedReply.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromisedReply.swift; sourceTree = "<group>"; };
+		B23969462642524600389945 /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		B23969612642525E00389945 /* TinodiosDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinodiosDB.h; sourceTree = "<group>"; };
+		B23969622642525E00389945 /* UserDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDb.swift; sourceTree = "<group>"; };
+		B23969632642525E00389945 /* ConnectionSettingsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionSettingsHelper.swift; sourceTree = "<group>"; };
+		B23969642642525E00389945 /* BaseDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDb.swift; sourceTree = "<group>"; };
+		B23969652642525E00389945 /* StoredMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredMessage.swift; sourceTree = "<group>"; };
+		B23969662642525E00389945 /* SqlStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlStore.swift; sourceTree = "<group>"; };
+		B23969672642525E00389945 /* MessageDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDb.swift; sourceTree = "<group>"; };
+		B23969682642525E00389945 /* SubscriberDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriberDb.swift; sourceTree = "<group>"; };
+		B23969692642525E00389945 /* AccountDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDb.swift; sourceTree = "<group>"; };
+		B239696A2642525E00389945 /* TopicDb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicDb.swift; sourceTree = "<group>"; };
+		B239696B2642525E00389945 /* SharedUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +299,8 @@
 		B2396860264247D200389945 /* TinodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				B23969602642525E00389945 /* TinodiosDB */,
+				B239692B2642524600389945 /* TinodeSDK */,
 				B239687826424DD100389945 /* Tinodios */,
 				B239692726424E9900389945 /* Resourses */,
 			);
@@ -351,6 +423,64 @@
 				B239686F264247D300389945 /* Info.plist */,
 			);
 			path = Resourses;
+			sourceTree = "<group>";
+		};
+		B239692B2642524600389945 /* TinodeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B239692C2642524600389945 /* Storage.swift */,
+				B239692D2642524600389945 /* Connection.swift */,
+				B239692E2642524600389945 /* Log.swift */,
+				B239692F2642524600389945 /* RFC3339Format.swift */,
+				B23969302642524600389945 /* FndTopic.swift */,
+				B23969312642524600389945 /* Tinode.swift */,
+				B23969322642524600389945 /* MeTopic.swift */,
+				B23969332642524600389945 /* User.swift */,
+				B23969342642524600389945 /* TinodeSDK.h */,
+				B23969352642524600389945 /* ComTopic.swift */,
+				B23969362642524600389945 /* model */,
+				B23969432642524600389945 /* AuthScheme.swift */,
+				B23969442642524600389945 /* PromisedReply.swift */,
+				B23969462642524600389945 /* Topic.swift */,
+			);
+			path = TinodeSDK;
+			sourceTree = "<group>";
+		};
+		B23969362642524600389945 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B23969372642524600389945 /* JSONValue.swift */,
+				B23969382642524600389945 /* Description.swift */,
+				B23969392642524600389945 /* VCard.swift */,
+				B239693A2642524600389945 /* Acs.swift */,
+				B239693B2642524600389945 /* ClientMessages.swift */,
+				B239693C2642524600389945 /* AcsHelper.swift */,
+				B239693D2642524600389945 /* Subscription.swift */,
+				B239693E2642524600389945 /* Defacs.swift */,
+				B239693F2642524600389945 /* Drafty.swift */,
+				B23969402642524600389945 /* MsgRange.swift */,
+				B23969412642524600389945 /* ServerMessages.swift */,
+				B23969422642524600389945 /* Types.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B23969602642525E00389945 /* TinodiosDB */ = {
+			isa = PBXGroup;
+			children = (
+				B23969612642525E00389945 /* TinodiosDB.h */,
+				B23969622642525E00389945 /* UserDb.swift */,
+				B23969632642525E00389945 /* ConnectionSettingsHelper.swift */,
+				B23969642642525E00389945 /* BaseDb.swift */,
+				B23969652642525E00389945 /* StoredMessage.swift */,
+				B23969662642525E00389945 /* SqlStore.swift */,
+				B23969672642525E00389945 /* MessageDb.swift */,
+				B23969682642525E00389945 /* SubscriberDb.swift */,
+				B23969692642525E00389945 /* AccountDb.swift */,
+				B239696A2642525E00389945 /* TopicDb.swift */,
+				B239696B2642525E00389945 /* SharedUtils.swift */,
+			);
+			path = TinodiosDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,15 +614,23 @@
 			files = (
 				B23968F426424DD100389945 /* SettingsNotificationsViewController.swift in Sources */,
 				B23968F126424DD100389945 /* LoginViewController.swift in Sources */,
+				B23969712642525E00389945 /* SqlStore.swift in Sources */,
+				B23969492642524600389945 /* Log.swift in Sources */,
+				B239695B2642524600389945 /* Types.swift in Sources */,
+				B23969732642525E00389945 /* SubscriberDb.swift in Sources */,
+				B23969532642524600389945 /* Acs.swift in Sources */,
 				B239691026424DD200389945 /* DraftyButtonAttachment.swift in Sources */,
 				B239691126424DD200389945 /* AsyncTextAttachment.swift in Sources */,
 				B239690726424DD100389945 /* ContactViewCell.swift in Sources */,
 				B239690D26424DD200389945 /* ImagePicker.swift in Sources */,
+				B239694F2642524600389945 /* ComTopic.swift in Sources */,
 				B239692026424DD200389945 /* AddByIDViewController.swift in Sources */,
+				B23969752642525E00389945 /* TopicDb.swift in Sources */,
 				B239690826424DD100389945 /* TagsEditDialogView.swift in Sources */,
 				B239690926424DD100389945 /* ProgressView.swift in Sources */,
 				B23968D326424DD100389945 /* SignupViewController.swift in Sources */,
 				B23968DF26424DD100389945 /* FindPresenter.swift in Sources */,
+				B239694B2642524600389945 /* FndTopic.swift in Sources */,
 				B23968FB26424DD100389945 /* ContactsManager.swift in Sources */,
 				B239691A26424DD200389945 /* RichTextView.swift in Sources */,
 				B23968F226424DD100389945 /* Utils.swift in Sources */,
@@ -501,50 +639,76 @@
 				B23968F726424DD100389945 /* ImagePreviewController.swift in Sources */,
 				B23968F026424DD100389945 /* TopicInfoViewController.swift in Sources */,
 				B23968E726424DD100389945 /* MessagePresenter.swift in Sources */,
+				B239694E2642524600389945 /* User.swift in Sources */,
 				B239691F26424DD200389945 /* SettingsSecurityViewController.swift in Sources */,
+				B23969512642524600389945 /* Description.swift in Sources */,
 				B239691426424DD200389945 /* SelectedMemberViewCell.swift in Sources */,
+				B23969542642524600389945 /* ClientMessages.swift in Sources */,
 				B23968EC26424DD100389945 /* Cache.swift in Sources */,
+				B23969722642525E00389945 /* MessageDb.swift in Sources */,
+				B23969572642524600389945 /* Defacs.swift in Sources */,
 				B23968FD26424DD100389945 /* ChatListRouter.swift in Sources */,
 				B239691926424DD200389945 /* SendImageBar.swift in Sources */,
+				B239695D2642524600389945 /* PromisedReply.swift in Sources */,
 				B23968DA26424DD100389945 /* ChatListInteractor.swift in Sources */,
 				B23968D726424DD100389945 /* NewChatTabController.swift in Sources */,
 				B23968F626424DD100389945 /* FindInteractor.swift in Sources */,
+				B239694D2642524600389945 /* MeTopic.swift in Sources */,
 				B23968E826424DD100389945 /* ResetPasswordViewController.swift in Sources */,
 				B23968DE26424DD100389945 /* FilePreviewController.swift in Sources */,
 				B23968FC26424DD100389945 /* ContactsSynchronizer.swift in Sources */,
 				B23968EE26424DD100389945 /* ArchivedChatsTableViewController.swift in Sources */,
 				B23968DD26424DD100389945 /* ChatListViewController.swift in Sources */,
+				B239695F2642524600389945 /* Topic.swift in Sources */,
+				B23969582642524600389945 /* Drafty.swift in Sources */,
+				B239694C2642524600389945 /* Tinode.swift in Sources */,
 				B239691B26424DD200389945 /* RoundImageView.swift in Sources */,
+				B23969502642524600389945 /* JSONValue.swift in Sources */,
+				B23969552642524600389945 /* AcsHelper.swift in Sources */,
 				B239691526424DD200389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift in Sources */,
+				B23969742642525E00389945 /* AccountDb.swift in Sources */,
 				B23968FA26424DD100389945 /* MessageCell.swift in Sources */,
 				B239690526424DD100389945 /* TagsEditView.swift in Sources */,
 				B23968D926424DD100389945 /* MessageBubbleDecorator.swift in Sources */,
+				B239695C2642524600389945 /* AuthScheme.swift in Sources */,
 				B239691626424DD200389945 /* MessageMenuItem.swift in Sources */,
 				B23968D826424DD100389945 /* MessageInteractor.swift in Sources */,
+				B239694A2642524600389945 /* RFC3339Format.swift in Sources */,
 				B23968F826424DD100389945 /* SettingsPersonalViewController.swift in Sources */,
 				B23968DB26424DD100389945 /* ChatListPresenter.swift in Sources */,
 				B23968ED26424DD100389945 /* EditMembersViewController.swift in Sources */,
 				B239692126424DD200389945 /* MessageView.swift in Sources */,
+				B239696E2642525E00389945 /* ConnectionSettingsHelper.swift in Sources */,
 				B2396862264247D200389945 /* AppDelegate.swift in Sources */,
 				B23968E626424DD100389945 /* LargeFileHelper.swift in Sources */,
 				B23968E426424DD100389945 /* AccountSettingsViewController.swift in Sources */,
 				B23968E026424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift in Sources */,
+				B23969702642525E00389945 /* StoredMessage.swift in Sources */,
 				B23968E126424DD100389945 /* AttributedStringFormatter.swift in Sources */,
 				B23968E226424DD100389945 /* NewGroupViewController.swift in Sources */,
+				B23969762642525E00389945 /* SharedUtils.swift in Sources */,
 				B239691D26424DD200389945 /* PaddedLabel.swift in Sources */,
 				B239690226424DD100389945 /* PermissionsEditViewController.swift in Sources */,
 				B23968F526424DD100389945 /* MessageViewController.swift in Sources */,
+				B23969482642524600389945 /* Connection.swift in Sources */,
 				B239690326424DD100389945 /* AvatarWithOnlineIndicator.swift in Sources */,
 				B23968FF26424DD100389945 /* FindViewController.swift in Sources */,
 				B23968FE26424DD100389945 /* KeyboardInfo.swift in Sources */,
+				B239695A2642524600389945 /* ServerMessages.swift in Sources */,
 				B239690026424DD100389945 /* MessageViewLayout.swift in Sources */,
 				B239691826424DD200389945 /* ValidatedCredential.swift in Sources */,
 				B23968E326424DD100389945 /* CredentialsViewController.swift in Sources */,
 				B23968EF26424DD100389945 /* BlockedContactsTableViewController.swift in Sources */,
+				B23969562642524600389945 /* Subscription.swift in Sources */,
+				B23969522642524600389945 /* VCard.swift in Sources */,
 				B23968F326424DD100389945 /* SettingsHelpViewController.swift in Sources */,
 				B239690426424DD100389945 /* SendMessageBar.swift in Sources */,
+				B239696F2642525E00389945 /* BaseDb.swift in Sources */,
+				B23969472642524600389945 /* Storage.swift in Sources */,
+				B239696D2642525E00389945 /* UserDb.swift in Sources */,
 				B23968D426424DD100389945 /* MessageViewController+Keyboard.swift in Sources */,
 				B23968D626424DD100389945 /* UiUtils.swift in Sources */,
+				B23969592642524600389945 /* MsgRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
