@@ -41,7 +41,7 @@ public class BaseDb {
     // Meta-status: object should be visible in the UI.
     public static let kStatusVisible = Status.synced
 
-    public static let kBundleId = "co.tinode.tinodios.db"
+    public static let kBundleId = Bundle.main.bundleIdentifier ?? "com.tinodios.itmegastar.test.TinodsTest"
     public static let kAppGroupId = "group." + BaseDb.kBundleId
     // No direct access to the shared instance.
     private static var `default`: BaseDb? = nil
@@ -67,12 +67,49 @@ public class BaseDb {
 
     /// The init is private to ensure that the class is a singleton.
     private init() {
-        var documentsDirectory = FileManager.default
-            .containerURL(forSecurityApplicationGroupIdentifier: BaseDb.kAppGroupId)!.absoluteString
-        if documentsDirectory.last! != "/" {
-            documentsDirectory.append("/")
+//        let namePath = BaseDb.kAppGroupId
+//        let fileManager = FileManager.default
+//        let pathDir = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory,
+//                                                       FileManager.SearchPathDomainMask.userDomainMask, true)
+//
+//
+//
+//        if let path = pathDir.first {
+//            let urlFolder = path + "/\(namePath)"
+//
+//
+//        if let _ = URL.init(string: urlFolder) {
+//
+//            var isDirectory: ObjCBool = false
+//            let exists = fileManager.fileExists(atPath: urlFolder, isDirectory:&isDirectory)
+//            let existsFolder = exists && isDirectory.boolValue
+//
+//            if existsFolder == false {
+//                do {
+//                    try FileManager.default.createDirectory(atPath: urlFolder, withIntermediateDirectories: true, attributes: nil)
+//                } catch let error as NSError {
+//                    print("----------------------------")
+//                    print(error.localizedDescription);
+//                }
+//
+//            }
+//
+//
+//            } else {
+//                print("Error in URL path");
+//            }
+//
+//        }
+        
+        let fileManager = FileManager.default
+        
+        var documentsDirectoryDB = fileManager.containerURL(forSecurityApplicationGroupIdentifier: BaseDb.kAppGroupId)!.absoluteString
+
+
+        if documentsDirectoryDB.last! != "/" {
+            documentsDirectoryDB.append("/")
         }
-        self.pathToDatabase = documentsDirectory.appending("database.sqlite")
+        self.pathToDatabase = documentsDirectoryDB.appending("database.sqlite")
 
         do {
             self.db = try SQLite.Connection(self.pathToDatabase)
