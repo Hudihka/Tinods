@@ -29,7 +29,7 @@
         <!--Login View Controller-->
         <scene sceneID="oCl-ty-J3S">
             <objects>
-                <viewController id="Lui-0V-oqF" customClass="LoginViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Lui-0V-oqF" customClass="LoginViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="top" id="fvB-2t-S4M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,7 +199,7 @@
         <!--Reset Password-->
         <scene sceneID="XJG-SC-LDS">
             <objects>
-                <viewController title="Reset Password" id="lq5-3O-Yva" customClass="ResetPasswordViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Reset Password" id="lq5-3O-Yva" customClass="ResetPasswordViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yaq-Qa-bSO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,7 +257,7 @@
         <!--SignUp-->
         <scene sceneID="zoy-96-uyA">
             <objects>
-                <tableViewController title="SignUp" id="YmQ-cB-rjH" customClass="SignupViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="SignUp" id="YmQ-cB-rjH" customClass="SignupViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" id="s0l-V7-G9U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -281,7 +281,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBr-fV-bmN" userLabel="Avatar View">
                                                     <rect key="frame" x="143" y="8" width="128" height="128"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" verticalHuggingPriority="248" translatesAutoresizingMaskIntoConstraints="NO" id="fp2-jW-uGT" userLabel="Avatar" customClass="RoundImageView" customModule="Tinodios" customModuleProvider="target">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" verticalHuggingPriority="248" translatesAutoresizingMaskIntoConstraints="NO" id="fp2-jW-uGT" userLabel="Avatar" customClass="RoundImageView" customModule="TinodsTest" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
@@ -503,7 +503,7 @@
         <!--GeneralSettings-->
         <scene sceneID="NPj-W5-x5S">
             <objects>
-                <tableViewController storyboardIdentifier="General Settings" title="General Settings" id="4dd-0I-UFm" userLabel="GeneralSettings" customClass="SettingsPersonalViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="General Settings" title="General Settings" id="4dd-0I-UFm" userLabel="GeneralSettings" customClass="SettingsPersonalViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="EYT-ci-7dR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -521,7 +521,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIy-1f-EaA" userLabel="Avatar View">
                                                     <rect key="frame" x="143" y="8" width="128" height="128"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" verticalHuggingPriority="248" translatesAutoresizingMaskIntoConstraints="NO" id="8A4-Ce-iQK" userLabel="Avatar" customClass="RoundImageView" customModule="Tinodios" customModuleProvider="target">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" verticalHuggingPriority="248" translatesAutoresizingMaskIntoConstraints="NO" id="8A4-Ce-iQK" userLabel="Avatar" customClass="RoundImageView" customModule="TinodsTest" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
@@ -695,7 +695,7 @@
         <!--SettingAccount Controller-->
         <scene sceneID="Bys-Pw-xzD">
             <objects>
-                <tableViewController id="u14-GR-sSc" userLabel="SettingAccount Controller" customClass="SettingsSecurityViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="u14-GR-sSc" userLabel="SettingAccount Controller" customClass="SettingsSecurityViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="irF-cK-wBH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -881,7 +881,7 @@
         <!--AccountSettings-->
         <scene sceneID="qDT-8U-goc">
             <objects>
-                <tableViewController storyboardIdentifier="Account Settings" title="Account Settings" id="Pnk-9m-ZVg" userLabel="AccountSettings" customClass="AccountSettingsViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Account Settings" title="Account Settings" id="Pnk-9m-ZVg" userLabel="AccountSettings" customClass="AccountSettingsViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="cnh-Qr-vMT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -903,7 +903,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="user-96" id="u5c-eJ-ozp" customClass="RoundImageView" customModule="Tinodios" customModuleProvider="target">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="user-96" id="u5c-eJ-ozp" customClass="RoundImageView" customModule="TinodsTest" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="0.0" width="80" height="80"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -1019,7 +1019,7 @@
         <!--Chats-->
         <scene sceneID="Dyz-uQ-9eq">
             <objects>
-                <viewController storyboardIdentifier="ChatListViewController" title="Chats" useStoryboardIdentifierAsRestorationIdentifier="YES" id="n9d-hv-55K" customClass="ChatListViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChatListViewController" title="Chats" useStoryboardIdentifierAsRestorationIdentifier="YES" id="n9d-hv-55K" customClass="ChatListViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="1" id="NpC-SO-Ujt" userLabel="ChatListTableView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1055,7 +1055,7 @@
         <!--MessageViewController-->
         <scene sceneID="ICk-IN-bpa">
             <objects>
-                <viewController storyboardIdentifier="MessageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="l6T-LK-IbJ" userLabel="MessageViewController" customClass="MessageViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="l6T-LK-IbJ" userLabel="MessageViewController" customClass="MessageViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fc4-96-1wI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1075,7 +1075,7 @@
         <!--Image Preview-->
         <scene sceneID="7wl-UP-q2R">
             <objects>
-                <viewController storyboardIdentifier="ImagePreviewController" title="Image Preview" id="a2m-CR-0Zc" customClass="ImagePreviewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImagePreviewController" title="Image Preview" id="a2m-CR-0Zc" customClass="ImagePreviewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CDS-hW-nLI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1193,7 +1193,7 @@
         <!--File Preview-->
         <scene sceneID="ySR-OD-pz6">
             <objects>
-                <viewController storyboardIdentifier="FilePreviewController" title="File Preview" id="ZTN-Oj-COh" userLabel="File Preview" customClass="FilePreviewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FilePreviewController" title="File Preview" id="ZTN-Oj-COh" userLabel="File Preview" customClass="FilePreviewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dp3-FD-Rba">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1337,7 +1337,7 @@
         <!--TopicInfoViewController-->
         <scene sceneID="mxu-ZQ-Gyc">
             <objects>
-                <tableViewController id="ZxW-bT-ZdQ" userLabel="TopicInfoViewController" customClass="TopicInfoViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ZxW-bT-ZdQ" userLabel="TopicInfoViewController" customClass="TopicInfoViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="jJN-mV-l6n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1381,7 +1381,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ut1-ZJ-7ei" userLabel="Avatar View">
                                                     <rect key="frame" x="290.66666666666669" y="20.333333333333336" width="103.33333333333331" height="103.33333333333331"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dWX-X1-W59" userLabel="Avatar" customClass="RoundImageView" customModule="Tinodios" customModuleProvider="target">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dWX-X1-W59" userLabel="Avatar" customClass="RoundImageView" customModule="TinodsTest" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="103.33333333333333" height="103.33333333333333"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="dWX-X1-W59" secondAttribute="height" multiplier="1:1" id="WhY-0a-hdX"/>
@@ -1843,7 +1843,7 @@
         <!--Edit Members-->
         <scene sceneID="T9P-Ei-xRE">
             <objects>
-                <viewController id="buX-Ye-w3b" userLabel="Edit Members" customClass="EditMembersViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="buX-Ye-w3b" userLabel="Edit Members" customClass="EditMembersViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O3T-QZ-1RZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1854,7 +1854,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9H-Bp-dMj" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="660"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GROUP MEMBERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a45-p0-44d" customClass="PaddedLabel" customModule="Tinodios" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GROUP MEMBERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a45-p0-44d" customClass="PaddedLabel" customModule="TinodsTest" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
                                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                 <constraints>
@@ -1889,7 +1889,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells/>
                                             </collectionView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL USERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-J6-tqx" customClass="PaddedLabel" customModule="Tinodios" customModuleProvider="target">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALL USERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftJ-J6-tqx" customClass="PaddedLabel" customModule="TinodsTest" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="132" width="414" height="40"/>
                                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                                 <constraints>
@@ -1983,7 +1983,7 @@
         <!--Confirm credentials-->
         <scene sceneID="Fsr-7A-t2q">
             <objects>
-                <viewController storyboardIdentifier="CredentialsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1NU-b8-NVe" customClass="CredentialsViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CredentialsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1NU-b8-NVe" customClass="CredentialsViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k1h-6L-J6F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2036,7 +2036,7 @@
         <!--NewChat-->
         <scene sceneID="REJ-Dq-O5O">
             <objects>
-                <tabBarController title="New chat" automaticallyAdjustsScrollViewInsets="NO" id="qBo-ye-avT" userLabel="NewChat" customClass="NewChatTabController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController title="New chat" automaticallyAdjustsScrollViewInsets="NO" id="qBo-ye-avT" userLabel="NewChat" customClass="NewChatTabController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="New Chat" id="hZA-k4-xku"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -2058,7 +2058,7 @@
         <!--ArchivedChats-->
         <scene sceneID="1Qp-ui-CDn">
             <objects>
-                <tableViewController id="B0l-J0-jm9" userLabel="ArchivedChats" customClass="ArchivedChatsTableViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="B0l-J0-jm9" userLabel="ArchivedChats" customClass="ArchivedChatsTableViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="Cq0-Zq-kcv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2088,7 +2088,7 @@
         <!--Blocked Contacts-->
         <scene sceneID="aiA-jY-1nc">
             <objects>
-                <tableViewController id="1lo-eH-gcA" customClass="BlockedContactsTableViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="1lo-eH-gcA" customClass="BlockedContactsTableViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="1" id="nva-Q6-irQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2115,7 +2115,7 @@
         <!--Notifications-->
         <scene sceneID="oTf-QO-rd0">
             <objects>
-                <tableViewController id="1x2-fx-TIm" customClass="SettingsNotificationsViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="1x2-fx-TIm" customClass="SettingsNotificationsViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="LVo-pp-O7j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2235,7 +2235,7 @@
         <!--Help and About-->
         <scene sceneID="6mu-Dd-9Q7">
             <objects>
-                <tableViewController id="7UE-Do-egL" customClass="SettingsHelpViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="7UE-Do-egL" customClass="SettingsHelpViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="roa-bA-iPY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2356,7 +2356,7 @@
         <!--Find Controller-->
         <scene sceneID="G8F-we-dvp">
             <objects>
-                <tableViewController storyboardIdentifier="Find" title="Find Controller" id="UgX-En-K1m" customClass="FindViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Find" title="Find Controller" id="UgX-En-K1m" customClass="FindViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="40" sectionFooterHeight="1" id="MEs-MU-LOB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2415,7 +2415,7 @@
         <!--New Group-->
         <scene sceneID="Wih-ax-Cue">
             <objects>
-                <tableViewController id="54g-fF-w5D" customClass="NewGroupViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="54g-fF-w5D" customClass="NewGroupViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="static" style="grouped" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="1" id="ieh-40-9nh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2434,7 +2434,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qec-5m-tPw" userLabel="Avatar View">
                                                     <rect key="frame" x="143" y="8" width="128" height="128"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IVi-b4-eb8" userLabel="Avatar" customClass="RoundImageView" customModule="Tinodios" customModuleProvider="target">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IVi-b4-eb8" userLabel="Avatar" customClass="RoundImageView" customModule="TinodsTest" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
@@ -2529,7 +2529,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eW7-0d-9hE" customClass="TagsEditView" customModule="Tinodios" customModuleProvider="target">
+                                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eW7-0d-9hE" customClass="TagsEditView" customModule="TinodsTest" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="9" width="374" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="Bcb-YN-XQA"/>
@@ -2643,7 +2643,7 @@
         <!--By ID Controller-->
         <scene sceneID="AtY-x1-ZN9">
             <objects>
-                <viewController id="6na-ed-mpJ" userLabel="By ID Controller" customClass="AddByIDViewController" customModule="Tinodios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6na-ed-mpJ" userLabel="By ID Controller" customClass="AddByIDViewController" customModule="TinodsTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qLD-dq-y03">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2711,6 +2711,9 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="eW7-0d-9hE">
+            <size key="intrinsicContentSize" width="374" height="29"/>
+        </designable>
         <designable name="u5c-eJ-ozp">
             <size key="intrinsicContentSize" width="125" height="125"/>
         </designable>
