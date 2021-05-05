@@ -68,7 +68,7 @@ public class PromisedReply<Value> {
     private var failureHandler: FailureHandler = nil
     private var nextPromise: PromisedReply<Value>?
     private var countDownLatch: CountDownLatch?
-    private var queue = DispatchQueue(label: "co.tinode.promise")
+    private var queue = DispatchQueue(label: "com.tinodios.itmegastar.test.TinodsTest.promise")
     private(set) var creationTimestamp: Date = Date()
     var isResolved: Bool {
         if case .resolved = state { return true }

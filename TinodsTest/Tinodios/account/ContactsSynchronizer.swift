@@ -29,7 +29,7 @@ class ContactsSynchronizer {
     }
     public static let `default` = ContactsSynchronizer()
     private let store = CNContactStore()
-    private let queue = DispatchQueue(label: "co.tinode.sync")
+    private let queue = DispatchQueue(label: "com.tinodios.itmegastar.test.TinodsTest.sync")
     public var authStatus: CNAuthorizationStatus = .notDetermined {
         didSet {
             if self.authStatus == .authorized {

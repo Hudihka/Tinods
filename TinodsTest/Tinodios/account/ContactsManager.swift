@@ -26,7 +26,7 @@ public class ContactHolder {
 class ContactsManager {
     public static var `default` = ContactsManager()
 
-    private let queue = DispatchQueue(label: "co.tinode.contacts")
+    private let queue = DispatchQueue(label: "com.tinodios.itmegastar.test.TinodsTest.contacts")
     private let userDb: UserDb!
     init() {
         self.userDb = BaseDb.sharedInstance.userDb!

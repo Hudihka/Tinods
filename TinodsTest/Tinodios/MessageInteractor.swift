@@ -72,7 +72,7 @@ class MessageInteractor: DefaultComTopic.Listener, MessageBusinessLogic, Message
     var topic: DefaultComTopic?
     var presenter: MessagePresentationLogic?
     var messages: [StoredMessage] = []
-    private var messageInteractorQueue = DispatchQueue(label: "co.tinode.messageinteractor")
+    private var messageInteractorQueue = DispatchQueue(label: "com.tinodios.itmegastar.test.TinodsTest.messageinteractor")
     private var tinodeEventListener: MessageEventListener? = nil
     // Last reported recv and read seq ids by the onInfo handler.
     // Upon receipt of an info message, the handler will reload all messages with

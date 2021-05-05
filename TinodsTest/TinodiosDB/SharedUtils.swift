@@ -20,7 +20,7 @@ public class SharedUtils {
     private static let kApiKey = "AQEAAAABAAD_rAp4DJh05a1HAwFT3A6K"
 
     static public let kAppDefaults = UserDefaults(suiteName: BaseDb.kAppGroupId)!
-    static let kAppKeychain = KeychainWrapper(serviceName: "co.tinode.tinodios", accessGroup: BaseDb.kAppGroupId)
+    static let kAppKeychain = KeychainWrapper(serviceName: "com.tinodios.itmegastar.test.TinodsTest", accessGroup: BaseDb.kAppGroupId)
 
     // Keys we store in keychain.
     static let kTokenKey = "co.tinode.token"
@@ -33,13 +33,16 @@ public class SharedUtils {
     static let kAppMetaVersion = 1
 
     // Default connection params.
-    #if DEBUG
-        public static let kHostName = "127.0.0.1:6060" // localhost
-        public static let kUseTLS = false
-    #else
-        public static let kHostName = "api.tinode.co" // production cluster
-        public static let kUseTLS = true
-    #endif
+            public static let kHostName = "api.tinode.co" // localhost
+            public static let kUseTLS = false
+    
+//    #if DEBUG
+//        public static let kHostName = "127.0.0.1:6060" // localhost
+//        public static let kUseTLS = false
+//    #else
+//        public static let kHostName = "api.tinode.co" // production cluster
+//        public static let kUseTLS = true
+//    #endif
 
     public static func getSavedLoginUserName() -> String? {
         return SharedUtils.kAppDefaults.string(forKey: SharedUtils.kTinodePrefLastLogin)

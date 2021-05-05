@@ -14,8 +14,8 @@ class Cache {
     private var tinodeInstance: Tinode? = nil
     private var timer = RepeatingTimer(timeInterval: 60 * 60 * 4) // Once every 4 hours.
     private var largeFileHelper: LargeFileHelper? = nil
-    private var queue = DispatchQueue(label: "co.tinode.cache")
-    internal static let log = Log(subsystem: "co.tinode.tinodios")
+    private var queue = DispatchQueue(label: "com.tinodios.itmegastar.test.TinodsTest.cache")
+    internal static let log = Log(subsystem: "com.tinodios.itmegastar.test.TinodsTest.tinodios")
 
     public static var tinode: Tinode {
         return Cache.default.getTinode()
