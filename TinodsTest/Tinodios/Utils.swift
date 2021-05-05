@@ -8,8 +8,6 @@
 import Foundation
 import MobileCoreServices
 import PhoneNumberKit
-import TinodeSDK
-import TinodiosDB
 
 public class Utils {
     static var phoneNumberKit: PhoneNumberKit = {

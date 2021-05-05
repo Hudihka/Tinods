@@ -7,8 +7,7 @@
 
 import Foundation
 import Contacts
-import TinodeSDK
-import TinodiosDB
+import UIKit
 
 class ContactsSynchronizer {
     private class ContactHolder2 {

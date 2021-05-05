@@ -9,8 +9,6 @@ import UIKit
 import os
 import SwiftKeychainWrapper
 import SwiftWebSocket
-import TinodeSDK
-import TinodiosDB
 
 class LoginViewController: UIViewController {
 

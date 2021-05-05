@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
-import TinodiosDB
 import Firebase
 
 class Cache {
@@ -17,7 +15,7 @@ class Cache {
     private var timer = RepeatingTimer(timeInterval: 60 * 60 * 4) // Once every 4 hours.
     private var largeFileHelper: LargeFileHelper? = nil
     private var queue = DispatchQueue(label: "co.tinode.cache")
-    internal static let log = TinodeSDK.Log(subsystem: "co.tinode.tinodios")
+    internal static let log = Log(subsystem: "co.tinode.tinodios")
 
     public static var tinode: Tinode {
         return Cache.default.getTinode()

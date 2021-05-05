@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import TinodeSDK
 
 protocol ChatListPresentationLogic {
     func presentTopics(_ topics: [DefaultComTopic], archivedTopics: [DefaultComTopic]?)

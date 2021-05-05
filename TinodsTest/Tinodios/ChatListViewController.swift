@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 protocol ChatListDisplayLogic: class {
     func displayChats(_ topics: [DefaultComTopic], archivedTopics: [DefaultComTopic]?)

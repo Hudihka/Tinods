@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 class ChatListViewCell: UITableViewCell {
     private static let kIconWidth: CGFloat = 18

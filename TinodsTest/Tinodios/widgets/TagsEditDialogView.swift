@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import TinodeSDK
 import UIKit
 
 class TagsEditDialogViewController: UIViewController {

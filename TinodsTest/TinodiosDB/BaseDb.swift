@@ -7,7 +7,6 @@
 
 import Foundation
 import SQLite
-import TinodeSDK
 
 public class BaseDb {
     // Current database schema version. Increment on schema changes.
@@ -64,7 +63,7 @@ public class BaseDb {
         return self.account != nil && !self.isCredValidationRequired
     }
 
-    internal static let log = TinodeSDK.Log(subsystem: BaseDb.kBundleId)
+    internal static let log = Log(subsystem: BaseDb.kBundleId)
 
     /// The init is private to ensure that the class is a singleton.
     private init() {

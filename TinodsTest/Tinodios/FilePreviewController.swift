@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 struct FilePreviewContent {
     let data: Data

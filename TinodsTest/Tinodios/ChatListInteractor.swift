@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import TinodeSDK
 
 protocol ChatListBusinessLogic: class {
     func loadAndPresentTopics()

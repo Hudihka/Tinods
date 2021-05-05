@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 public protocol EditMembersDelegate: class {
     // Asks for the UIDs and contact info of initially selected members

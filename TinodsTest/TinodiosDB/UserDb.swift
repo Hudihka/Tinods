@@ -7,7 +7,6 @@
 
 import Foundation
 import SQLite
-import TinodeSDK
 
 public class StoredUser: Payload {
     let id: Int64?

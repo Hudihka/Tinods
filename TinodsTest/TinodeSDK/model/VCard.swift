@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public class Photo: Codable {
     public let type: String?

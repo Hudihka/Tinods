@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-import TinodiosDB
 
 protocol MessagePresentationLogic {
     func switchTopic(topic: String?)

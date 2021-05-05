@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 class AddByIDViewController: UIViewController {
 

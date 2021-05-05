@@ -5,8 +5,6 @@
 //  Copyright © 2020 Tinode. All rights reserved.
 //
 
-import TinodeSDK
-import TinodiosDB
 import UIKit
 
 class SettingsSecurityViewController: UITableViewController {

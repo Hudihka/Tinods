@@ -5,7 +5,6 @@
 //  Copyright © 2020 Tinode. All rights reserved.
 //
 
-import TinodeSDK
 import UIKit
 
 class SettingsPersonalViewController: UITableViewController {

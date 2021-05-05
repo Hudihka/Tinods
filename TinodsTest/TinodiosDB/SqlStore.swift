@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import TinodeSDK
+
 
 enum SqlStoreError: Error {
     case dbError(String)

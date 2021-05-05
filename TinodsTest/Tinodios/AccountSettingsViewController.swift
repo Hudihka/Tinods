@@ -5,7 +5,6 @@
 //  Copyright © 2019 Tinode. All rights reserved.
 //
 
-import TinodeSDK
 import UIKit
 
 class AccountSettingsViewController: UITableViewController {

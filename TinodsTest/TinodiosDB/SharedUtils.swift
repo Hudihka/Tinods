@@ -8,7 +8,6 @@
 import Foundation
 import SwiftKeychainWrapper
 import SwiftWebSocket
-import TinodeSDK
 
 public class SharedUtils {
     static public let kTinodeMetaVersion = "tinodeMetaVersion"

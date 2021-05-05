@@ -7,7 +7,6 @@
 
 // Implementation of a circular image view with either an image or letters
 
-import TinodeSDK
 import UIKit
 
 @IBDesignable class RoundImageView: UIImageView {

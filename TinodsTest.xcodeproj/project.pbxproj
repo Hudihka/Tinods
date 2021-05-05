@@ -31,9 +31,6 @@
 		B23968E626424DD100389945 /* LargeFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689126424DD100389945 /* LargeFileHelper.swift */; };
 		B23968E726424DD100389945 /* MessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689226424DD100389945 /* MessagePresenter.swift */; };
 		B23968E826424DD100389945 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689326424DD100389945 /* ResetPasswordViewController.swift */; };
-		B23968E926424DD100389945 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239689526424DD100389945 /* LaunchScreen.strings */; };
-		B23968EA26424DD100389945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239689826424DD100389945 /* Assets.xcassets */; };
-		B23968EB26424DD100389945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239689926424DD100389945 /* LaunchScreen.storyboard */; };
 		B23968EC26424DD100389945 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689B26424DD100389945 /* Cache.swift */; };
 		B23968ED26424DD100389945 /* EditMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689C26424DD100389945 /* EditMembersViewController.swift */; };
 		B23968EE26424DD100389945 /* ArchivedChatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689D26424DD100389945 /* ArchivedChatsTableViewController.swift */; };
@@ -155,10 +152,6 @@
 		B239689126424DD100389945 /* LargeFileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeFileHelper.swift; sourceTree = "<group>"; };
 		B239689226424DD100389945 /* MessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePresenter.swift; sourceTree = "<group>"; };
 		B239689326424DD100389945 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
-		B239689626424DD100389945 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		B239689726424DD100389945 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		B239689826424DD100389945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B239689A26424DD100389945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B239689B26424DD100389945 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		B239689C26424DD100389945 /* EditMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMembersViewController.swift; sourceTree = "<group>"; };
 		B239689D26424DD100389945 /* ArchivedChatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchivedChatsTableViewController.swift; sourceTree = "<group>"; };
@@ -312,7 +305,6 @@
 			children = (
 				B23968B226424DD100389945 /* widgets */,
 				B23968AA26424DD100389945 /* account */,
-				B239689426424DD100389945 /* Supporting Files */,
 				B239687926424DD100389945 /* SignupViewController.swift */,
 				B239687A26424DD100389945 /* MessageViewController+Keyboard.swift */,
 				B239688F26424DD100389945 /* Main.storyboard */,
@@ -357,16 +349,6 @@
 				B23968D226424DD100389945 /* MessageView.swift */,
 			);
 			path = Tinodios;
-			sourceTree = "<group>";
-		};
-		B239689426424DD100389945 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B239689526424DD100389945 /* LaunchScreen.strings */,
-				B239689826424DD100389945 /* Assets.xcassets */,
-				B239689926424DD100389945 /* LaunchScreen.storyboard */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B23968AA26424DD100389945 /* account */ = {
@@ -546,7 +528,6 @@
 			files = (
 				B239691726424DD200389945 /* SendImageBar.xib in Resources */,
 				B239690626424DD100389945 /* SelectedMemberViewCell.xib in Resources */,
-				B23968EB26424DD100389945 /* LaunchScreen.storyboard in Resources */,
 				B239686E264247D300389945 /* LaunchScreen.storyboard in Resources */,
 				B239690F26424DD200389945 /* ChatListViewCell.xib in Resources */,
 				B239690E26424DD200389945 /* TagsEditDialogView.xib in Resources */,
@@ -555,9 +536,7 @@
 				B239691326424DD200389945 /* SendMessageBar.xib in Resources */,
 				B23968E526424DD100389945 /* Main.storyboard in Resources */,
 				B239690C26424DD100389945 /* ContactViewCell.xib in Resources */,
-				B23968E926424DD100389945 /* LaunchScreen.strings in Resources */,
 				B239686B264247D300389945 /* Assets.xcassets in Resources */,
-				B23968EA26424DD100389945 /* Assets.xcassets in Resources */,
 				B239690B26424DD100389945 /* ProgressView.xib in Resources */,
 				B239691C26424DD200389945 /* PermissionsEditView.xib in Resources */,
 			);
@@ -739,23 +718,6 @@
 				B239689026424DD100389945 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B239689526424DD100389945 /* LaunchScreen.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B239689626424DD100389945 /* zh-Hans */,
-				B239689726424DD100389945 /* es */,
-			);
-			name = LaunchScreen.strings;
-			sourceTree = "<group>";
-		};
-		B239689926424DD100389945 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B239689A26424DD100389945 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

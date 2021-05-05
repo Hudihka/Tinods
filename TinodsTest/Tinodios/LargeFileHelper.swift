@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 public class Upload {
     fileprivate var url: URL

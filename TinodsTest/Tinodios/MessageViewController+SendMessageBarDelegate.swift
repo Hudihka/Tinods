@@ -7,7 +7,6 @@
 
 import UIKit
 import MobileCoreServices
-import TinodeSDK
 
 extension MessageViewController : SendMessageBarDelegate {
     // Default 256K server limit. Does not account for base64 compression and overhead.

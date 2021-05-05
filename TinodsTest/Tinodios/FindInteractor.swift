@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import TinodeSDK
 
 protocol FindBusinessLogic: class {
     var fndTopic: DefaultFndTopic? { get }

@@ -5,6 +5,9 @@
 //  Created by Админ on 05.05.2021.
 //
 
+import Firebase
+import FirebaseCrashlytics
+import Network
 import UIKit
 
 @main
@@ -176,8 +179,11 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 }
 
 extension AppDelegate: MessagingDelegate {
-    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         // Update token. Send to the app server.
-        Cache.tinode.setDeviceToken(token: fcmToken)
+        guard let token = fcmToken else {
+            return
+        }
+        Cache.tinode.setDeviceToken(token: token)
     }
 }

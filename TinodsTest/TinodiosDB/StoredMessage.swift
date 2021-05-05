@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import TinodeSDK
 
 public class StoredMessage : MsgServerData, Message {
     public var msgId: Int64 = 0

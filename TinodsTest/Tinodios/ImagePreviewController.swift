@@ -7,7 +7,6 @@
 
 // Shows full-screen
 import UIKit
-import TinodeSDK
 
 struct ImagePreviewContent {
     enum ImageContent {

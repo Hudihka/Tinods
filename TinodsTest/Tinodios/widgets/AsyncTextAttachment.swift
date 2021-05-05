@@ -6,7 +6,6 @@
 //
 
 import Kingfisher
-import TinodeSDK
 import UIKit
 
 /// An image text attachment which gets updated after loading an imgae from URL

@@ -7,7 +7,6 @@
 
 import Foundation
 import SQLite
-import TinodeSDK
 
 public class StoredTopic: Payload {
     var id: Int64? = nil

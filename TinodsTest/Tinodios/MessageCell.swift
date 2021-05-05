@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 /// A protocol used to detect taps in the chat message.
 protocol MessageCellDelegate: class {

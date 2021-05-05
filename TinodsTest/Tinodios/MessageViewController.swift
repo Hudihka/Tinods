@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
-import TinodiosDB
 
 protocol MessageDisplayLogic: class {
     func switchTopic(topic: String?)

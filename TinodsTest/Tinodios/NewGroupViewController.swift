@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import TinodeSDK
 
 protocol NewGroupDisplayLogic: class {
     func presentChat(with topicName: String)

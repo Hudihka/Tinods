@@ -7,8 +7,6 @@
 
 import Firebase
 import Foundation
-import TinodiosDB
-import TinodeSDK
 
 public typealias ScalingData = (dst: CGSize, src: CGRect, altered: Bool)
 

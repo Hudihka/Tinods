@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import TinodeSDK
-import TinodiosDB
+import UIKit
 
 protocol MessageBusinessLogic: class {
     @discardableResult
