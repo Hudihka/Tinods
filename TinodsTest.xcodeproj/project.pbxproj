@@ -3,15 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B2396862264247D200389945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396861264247D200389945 /* AppDelegate.swift */; };
-		B2396866264247D200389945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2396865264247D200389945 /* ViewController.swift */; };
-		B2396869264247D200389945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2396867264247D200389945 /* Main.storyboard */; };
 		B239686B264247D300389945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239686A264247D300389945 /* Assets.xcassets */; };
 		B239686E264247D300389945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239686C264247D300389945 /* LaunchScreen.storyboard */; };
+		B23968D326424DD100389945 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239687926424DD100389945 /* SignupViewController.swift */; };
+		B23968D426424DD100389945 /* MessageViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239687A26424DD100389945 /* MessageViewController+Keyboard.swift */; };
+		B23968D526424DD100389945 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239687B26424DD100389945 /* Main.strings */; };
+		B23968D626424DD100389945 /* UiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239687D26424DD100389945 /* UiUtils.swift */; };
+		B23968D726424DD100389945 /* NewChatTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239687F26424DD100389945 /* NewChatTabController.swift */; };
+		B23968D826424DD100389945 /* MessageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688026424DD100389945 /* MessageInteractor.swift */; };
+		B23968D926424DD100389945 /* MessageBubbleDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688126424DD100389945 /* MessageBubbleDecorator.swift */; };
+		B23968DA26424DD100389945 /* ChatListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688226424DD100389945 /* ChatListInteractor.swift */; };
+		B23968DB26424DD100389945 /* ChatListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688326424DD100389945 /* ChatListPresenter.swift */; };
+		B23968DD26424DD100389945 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688726424DD100389945 /* ChatListViewController.swift */; };
+		B23968DE26424DD100389945 /* FilePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688826424DD100389945 /* FilePreviewController.swift */; };
+		B23968DF26424DD100389945 /* FindPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688926424DD100389945 /* FindPresenter.swift */; };
+		B23968E026424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688A26424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift */; };
+		B23968E126424DD100389945 /* AttributedStringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688B26424DD100389945 /* AttributedStringFormatter.swift */; };
+		B23968E226424DD100389945 /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688C26424DD100389945 /* NewGroupViewController.swift */; };
+		B23968E326424DD100389945 /* CredentialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688D26424DD100389945 /* CredentialsViewController.swift */; };
+		B23968E426424DD100389945 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239688E26424DD100389945 /* AccountSettingsViewController.swift */; };
+		B23968E526424DD100389945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239688F26424DD100389945 /* Main.storyboard */; };
+		B23968E626424DD100389945 /* LargeFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689126424DD100389945 /* LargeFileHelper.swift */; };
+		B23968E726424DD100389945 /* MessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689226424DD100389945 /* MessagePresenter.swift */; };
+		B23968E826424DD100389945 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689326424DD100389945 /* ResetPasswordViewController.swift */; };
+		B23968E926424DD100389945 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239689526424DD100389945 /* LaunchScreen.strings */; };
+		B23968EA26424DD100389945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239689826424DD100389945 /* Assets.xcassets */; };
+		B23968EB26424DD100389945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239689926424DD100389945 /* LaunchScreen.storyboard */; };
+		B23968EC26424DD100389945 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689B26424DD100389945 /* Cache.swift */; };
+		B23968ED26424DD100389945 /* EditMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689C26424DD100389945 /* EditMembersViewController.swift */; };
+		B23968EE26424DD100389945 /* ArchivedChatsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689D26424DD100389945 /* ArchivedChatsTableViewController.swift */; };
+		B23968EF26424DD100389945 /* BlockedContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689E26424DD100389945 /* BlockedContactsTableViewController.swift */; };
+		B23968F026424DD100389945 /* TopicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239689F26424DD100389945 /* TopicInfoViewController.swift */; };
+		B23968F126424DD100389945 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A026424DD100389945 /* LoginViewController.swift */; };
+		B23968F226424DD100389945 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A126424DD100389945 /* Utils.swift */; };
+		B23968F326424DD100389945 /* SettingsHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A226424DD100389945 /* SettingsHelpViewController.swift */; };
+		B23968F426424DD100389945 /* SettingsNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A326424DD100389945 /* SettingsNotificationsViewController.swift */; };
+		B23968F526424DD100389945 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A426424DD100389945 /* MessageViewController.swift */; };
+		B23968F626424DD100389945 /* FindInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A526424DD100389945 /* FindInteractor.swift */; };
+		B23968F726424DD100389945 /* ImagePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A626424DD100389945 /* ImagePreviewController.swift */; };
+		B23968F826424DD100389945 /* SettingsPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A726424DD100389945 /* SettingsPersonalViewController.swift */; };
+		B23968FA26424DD100389945 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968A926424DD100389945 /* MessageCell.swift */; };
+		B23968FB26424DD100389945 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968AB26424DD100389945 /* ContactsManager.swift */; };
+		B23968FC26424DD100389945 /* ContactsSynchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968AC26424DD100389945 /* ContactsSynchronizer.swift */; };
+		B23968FD26424DD100389945 /* ChatListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968AD26424DD100389945 /* ChatListRouter.swift */; };
+		B23968FE26424DD100389945 /* KeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968AE26424DD100389945 /* KeyboardInfo.swift */; };
+		B23968FF26424DD100389945 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968AF26424DD100389945 /* FindViewController.swift */; };
+		B239690026424DD100389945 /* MessageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B026424DD100389945 /* MessageViewLayout.swift */; };
+		B239690226424DD100389945 /* PermissionsEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B326424DD100389945 /* PermissionsEditViewController.swift */; };
+		B239690326424DD100389945 /* AvatarWithOnlineIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B426424DD100389945 /* AvatarWithOnlineIndicator.swift */; };
+		B239690426424DD100389945 /* SendMessageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B526424DD100389945 /* SendMessageBar.swift */; };
+		B239690526424DD100389945 /* TagsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B626424DD100389945 /* TagsEditView.swift */; };
+		B239690626424DD100389945 /* SelectedMemberViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968B726424DD100389945 /* SelectedMemberViewCell.xib */; };
+		B239690726424DD100389945 /* ContactViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B826424DD100389945 /* ContactViewCell.swift */; };
+		B239690826424DD100389945 /* TagsEditDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968B926424DD100389945 /* TagsEditDialogView.swift */; };
+		B239690926424DD100389945 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968BA26424DD100389945 /* ProgressView.swift */; };
+		B239690A26424DD100389945 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968BB26424DD100389945 /* PlaceholderTextView.swift */; };
+		B239690B26424DD100389945 /* ProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968BC26424DD100389945 /* ProgressView.xib */; };
+		B239690C26424DD100389945 /* ContactViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968BD26424DD100389945 /* ContactViewCell.xib */; };
+		B239690D26424DD200389945 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968BE26424DD100389945 /* ImagePicker.swift */; };
+		B239690E26424DD200389945 /* TagsEditDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968BF26424DD100389945 /* TagsEditDialogView.xib */; };
+		B239690F26424DD200389945 /* ChatListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968C026424DD100389945 /* ChatListViewCell.xib */; };
+		B239691026424DD200389945 /* DraftyButtonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C126424DD100389945 /* DraftyButtonAttachment.swift */; };
+		B239691126424DD200389945 /* AsyncTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C226424DD100389945 /* AsyncTextAttachment.swift */; };
+		B239691226424DD200389945 /* ChatListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C326424DD100389945 /* ChatListViewCell.swift */; };
+		B239691326424DD200389945 /* SendMessageBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968C426424DD100389945 /* SendMessageBar.xib */; };
+		B239691426424DD200389945 /* SelectedMemberViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C526424DD100389945 /* SelectedMemberViewCell.swift */; };
+		B239691526424DD200389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C626424DD100389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift */; };
+		B239691626424DD200389945 /* MessageMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C726424DD100389945 /* MessageMenuItem.swift */; };
+		B239691726424DD200389945 /* SendImageBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968C826424DD100389945 /* SendImageBar.xib */; };
+		B239691826424DD200389945 /* ValidatedCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968C926424DD100389945 /* ValidatedCredential.swift */; };
+		B239691926424DD200389945 /* SendImageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968CA26424DD100389945 /* SendImageBar.swift */; };
+		B239691A26424DD200389945 /* RichTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968CB26424DD100389945 /* RichTextView.swift */; };
+		B239691B26424DD200389945 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968CC26424DD100389945 /* RoundImageView.swift */; };
+		B239691C26424DD200389945 /* PermissionsEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968CD26424DD100389945 /* PermissionsEditView.xib */; };
+		B239691D26424DD200389945 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968CE26424DD100389945 /* PaddedLabel.swift */; };
+		B239691E26424DD200389945 /* AvatarWithOnlineIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = B23968CF26424DD100389945 /* AvatarWithOnlineIndicator.xib */; };
+		B239691F26424DD200389945 /* SettingsSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D026424DD100389945 /* SettingsSecurityViewController.swift */; };
+		B239692026424DD200389945 /* AddByIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D126424DD100389945 /* AddByIDViewController.swift */; };
+		B239692126424DD200389945 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23968D226424DD100389945 /* MessageView.swift */; };
 		C1031879751D039770B363BB /* Pods_TinodsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58FE984F893C188F10A6D232 /* Pods_TinodsTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +95,88 @@
 		58FE984F893C188F10A6D232 /* Pods_TinodsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinodsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B239685E264247D200389945 /* TinodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2396861264247D200389945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2396865264247D200389945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2396868264247D200389945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B239686A264247D300389945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B239686D264247D300389945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B239686F264247D300389945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B239687926424DD100389945 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B239687A26424DD100389945 /* MessageViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		B239687C26424DD100389945 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B239687D26424DD100389945 /* UiUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UiUtils.swift; sourceTree = "<group>"; };
+		B239687E26424DD100389945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		B239687F26424DD100389945 /* NewChatTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatTabController.swift; sourceTree = "<group>"; };
+		B239688026424DD100389945 /* MessageInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInteractor.swift; sourceTree = "<group>"; };
+		B239688126424DD100389945 /* MessageBubbleDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleDecorator.swift; sourceTree = "<group>"; };
+		B239688226424DD100389945 /* ChatListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListInteractor.swift; sourceTree = "<group>"; };
+		B239688326424DD100389945 /* ChatListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListPresenter.swift; sourceTree = "<group>"; };
+		B239688426424DD100389945 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		B239688726424DD100389945 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		B239688826424DD100389945 /* FilePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePreviewController.swift; sourceTree = "<group>"; };
+		B239688926424DD100389945 /* FindPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindPresenter.swift; sourceTree = "<group>"; };
+		B239688A26424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageViewController+SendMessageBarDelegate.swift"; sourceTree = "<group>"; };
+		B239688B26424DD100389945 /* AttributedStringFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringFormatter.swift; sourceTree = "<group>"; };
+		B239688C26424DD100389945 /* NewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		B239688D26424DD100389945 /* CredentialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialsViewController.swift; sourceTree = "<group>"; };
+		B239688E26424DD100389945 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		B239689026424DD100389945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B239689126424DD100389945 /* LargeFileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeFileHelper.swift; sourceTree = "<group>"; };
+		B239689226424DD100389945 /* MessagePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePresenter.swift; sourceTree = "<group>"; };
+		B239689326424DD100389945 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		B239689626424DD100389945 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B239689726424DD100389945 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B239689826424DD100389945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B239689A26424DD100389945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B239689B26424DD100389945 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		B239689C26424DD100389945 /* EditMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMembersViewController.swift; sourceTree = "<group>"; };
+		B239689D26424DD100389945 /* ArchivedChatsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchivedChatsTableViewController.swift; sourceTree = "<group>"; };
+		B239689E26424DD100389945 /* BlockedContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedContactsTableViewController.swift; sourceTree = "<group>"; };
+		B239689F26424DD100389945 /* TopicInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicInfoViewController.swift; sourceTree = "<group>"; };
+		B23968A026424DD100389945 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B23968A126424DD100389945 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B23968A226424DD100389945 /* SettingsHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHelpViewController.swift; sourceTree = "<group>"; };
+		B23968A326424DD100389945 /* SettingsNotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNotificationsViewController.swift; sourceTree = "<group>"; };
+		B23968A426424DD100389945 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		B23968A526424DD100389945 /* FindInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindInteractor.swift; sourceTree = "<group>"; };
+		B23968A626424DD100389945 /* ImagePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewController.swift; sourceTree = "<group>"; };
+		B23968A726424DD100389945 /* SettingsPersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPersonalViewController.swift; sourceTree = "<group>"; };
+		B23968A926424DD100389945 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		B23968AB26424DD100389945 /* ContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		B23968AC26424DD100389945 /* ContactsSynchronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsSynchronizer.swift; sourceTree = "<group>"; };
+		B23968AD26424DD100389945 /* ChatListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListRouter.swift; sourceTree = "<group>"; };
+		B23968AE26424DD100389945 /* KeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInfo.swift; sourceTree = "<group>"; };
+		B23968AF26424DD100389945 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		B23968B026424DD100389945 /* MessageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewLayout.swift; sourceTree = "<group>"; };
+		B23968B326424DD100389945 /* PermissionsEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsEditViewController.swift; sourceTree = "<group>"; };
+		B23968B426424DD100389945 /* AvatarWithOnlineIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarWithOnlineIndicator.swift; sourceTree = "<group>"; };
+		B23968B526424DD100389945 /* SendMessageBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageBar.swift; sourceTree = "<group>"; };
+		B23968B626424DD100389945 /* TagsEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsEditView.swift; sourceTree = "<group>"; };
+		B23968B726424DD100389945 /* SelectedMemberViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedMemberViewCell.xib; sourceTree = "<group>"; };
+		B23968B826424DD100389945 /* ContactViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewCell.swift; sourceTree = "<group>"; };
+		B23968B926424DD100389945 /* TagsEditDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsEditDialogView.swift; sourceTree = "<group>"; };
+		B23968BA26424DD100389945 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		B23968BB26424DD100389945 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		B23968BC26424DD100389945 /* ProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressView.xib; sourceTree = "<group>"; };
+		B23968BD26424DD100389945 /* ContactViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewCell.xib; sourceTree = "<group>"; };
+		B23968BE26424DD100389945 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B23968BF26424DD100389945 /* TagsEditDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsEditDialogView.xib; sourceTree = "<group>"; };
+		B23968C026424DD100389945 /* ChatListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatListViewCell.xib; sourceTree = "<group>"; };
+		B23968C126424DD100389945 /* DraftyButtonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraftyButtonAttachment.swift; sourceTree = "<group>"; };
+		B23968C226424DD100389945 /* AsyncTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncTextAttachment.swift; sourceTree = "<group>"; };
+		B23968C326424DD100389945 /* ChatListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewCell.swift; sourceTree = "<group>"; };
+		B23968C426424DD100389945 /* SendMessageBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMessageBar.xib; sourceTree = "<group>"; };
+		B23968C526424DD100389945 /* SelectedMemberViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedMemberViewCell.swift; sourceTree = "<group>"; };
+		B23968C626424DD100389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AvatarWithOnlineIndicator+TypingAnimation.swift"; sourceTree = "<group>"; };
+		B23968C726424DD100389945 /* MessageMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMenuItem.swift; sourceTree = "<group>"; };
+		B23968C826424DD100389945 /* SendImageBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendImageBar.xib; sourceTree = "<group>"; };
+		B23968C926424DD100389945 /* ValidatedCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatedCredential.swift; sourceTree = "<group>"; };
+		B23968CA26424DD100389945 /* SendImageBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendImageBar.swift; sourceTree = "<group>"; };
+		B23968CB26424DD100389945 /* RichTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextView.swift; sourceTree = "<group>"; };
+		B23968CC26424DD100389945 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		B23968CD26424DD100389945 /* PermissionsEditView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PermissionsEditView.xib; sourceTree = "<group>"; };
+		B23968CE26424DD100389945 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		B23968CF26424DD100389945 /* AvatarWithOnlineIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvatarWithOnlineIndicator.xib; sourceTree = "<group>"; };
+		B23968D026424DD100389945 /* SettingsSecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSecurityViewController.swift; sourceTree = "<group>"; };
+		B23968D126424DD100389945 /* AddByIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddByIDViewController.swift; sourceTree = "<group>"; };
+		B23968D226424DD100389945 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +197,6 @@
 				3B96F9A948111F9403890832 /* Pods-TinodsTest.debug.xcconfig */,
 				0B80EB16E78A719147945806 /* Pods-TinodsTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,14 +229,128 @@
 		B2396860264247D200389945 /* TinodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				B239687826424DD100389945 /* Tinodios */,
+				B239692726424E9900389945 /* Resourses */,
+			);
+			path = TinodsTest;
+			sourceTree = "<group>";
+		};
+		B239687826424DD100389945 /* Tinodios */ = {
+			isa = PBXGroup;
+			children = (
+				B23968B226424DD100389945 /* widgets */,
+				B23968AA26424DD100389945 /* account */,
+				B239689426424DD100389945 /* Supporting Files */,
+				B239687926424DD100389945 /* SignupViewController.swift */,
+				B239687A26424DD100389945 /* MessageViewController+Keyboard.swift */,
+				B239688F26424DD100389945 /* Main.storyboard */,
+				B239687B26424DD100389945 /* Main.strings */,
+				B239687D26424DD100389945 /* UiUtils.swift */,
+				B239687F26424DD100389945 /* NewChatTabController.swift */,
+				B239688026424DD100389945 /* MessageInteractor.swift */,
+				B239688126424DD100389945 /* MessageBubbleDecorator.swift */,
+				B239688226424DD100389945 /* ChatListInteractor.swift */,
+				B239688326424DD100389945 /* ChatListPresenter.swift */,
+				B239688726424DD100389945 /* ChatListViewController.swift */,
+				B239688826424DD100389945 /* FilePreviewController.swift */,
+				B239688926424DD100389945 /* FindPresenter.swift */,
+				B239688A26424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift */,
+				B239688B26424DD100389945 /* AttributedStringFormatter.swift */,
+				B239688C26424DD100389945 /* NewGroupViewController.swift */,
+				B239688D26424DD100389945 /* CredentialsViewController.swift */,
+				B239688E26424DD100389945 /* AccountSettingsViewController.swift */,
+				B239689126424DD100389945 /* LargeFileHelper.swift */,
+				B239689226424DD100389945 /* MessagePresenter.swift */,
+				B239689326424DD100389945 /* ResetPasswordViewController.swift */,
+				B239689B26424DD100389945 /* Cache.swift */,
+				B239689C26424DD100389945 /* EditMembersViewController.swift */,
+				B239689D26424DD100389945 /* ArchivedChatsTableViewController.swift */,
+				B239689E26424DD100389945 /* BlockedContactsTableViewController.swift */,
+				B239689F26424DD100389945 /* TopicInfoViewController.swift */,
+				B23968A026424DD100389945 /* LoginViewController.swift */,
+				B23968A126424DD100389945 /* Utils.swift */,
+				B23968A226424DD100389945 /* SettingsHelpViewController.swift */,
+				B23968A326424DD100389945 /* SettingsNotificationsViewController.swift */,
+				B23968A426424DD100389945 /* MessageViewController.swift */,
+				B23968A526424DD100389945 /* FindInteractor.swift */,
+				B23968A626424DD100389945 /* ImagePreviewController.swift */,
+				B23968A726424DD100389945 /* SettingsPersonalViewController.swift */,
+				B23968A926424DD100389945 /* MessageCell.swift */,
+				B23968AD26424DD100389945 /* ChatListRouter.swift */,
+				B23968AE26424DD100389945 /* KeyboardInfo.swift */,
+				B23968AF26424DD100389945 /* FindViewController.swift */,
+				B23968B026424DD100389945 /* MessageViewLayout.swift */,
+				B23968D026424DD100389945 /* SettingsSecurityViewController.swift */,
+				B23968D126424DD100389945 /* AddByIDViewController.swift */,
+				B23968D226424DD100389945 /* MessageView.swift */,
+			);
+			path = Tinodios;
+			sourceTree = "<group>";
+		};
+		B239689426424DD100389945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B239689526424DD100389945 /* LaunchScreen.strings */,
+				B239689826424DD100389945 /* Assets.xcassets */,
+				B239689926424DD100389945 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B23968AA26424DD100389945 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				B23968AB26424DD100389945 /* ContactsManager.swift */,
+				B23968AC26424DD100389945 /* ContactsSynchronizer.swift */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		B23968B226424DD100389945 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B23968B326424DD100389945 /* PermissionsEditViewController.swift */,
+				B23968B426424DD100389945 /* AvatarWithOnlineIndicator.swift */,
+				B23968B526424DD100389945 /* SendMessageBar.swift */,
+				B23968B626424DD100389945 /* TagsEditView.swift */,
+				B23968B726424DD100389945 /* SelectedMemberViewCell.xib */,
+				B23968B826424DD100389945 /* ContactViewCell.swift */,
+				B23968B926424DD100389945 /* TagsEditDialogView.swift */,
+				B23968BA26424DD100389945 /* ProgressView.swift */,
+				B23968BB26424DD100389945 /* PlaceholderTextView.swift */,
+				B23968BC26424DD100389945 /* ProgressView.xib */,
+				B23968BD26424DD100389945 /* ContactViewCell.xib */,
+				B23968BE26424DD100389945 /* ImagePicker.swift */,
+				B23968BF26424DD100389945 /* TagsEditDialogView.xib */,
+				B23968C026424DD100389945 /* ChatListViewCell.xib */,
+				B23968C126424DD100389945 /* DraftyButtonAttachment.swift */,
+				B23968C226424DD100389945 /* AsyncTextAttachment.swift */,
+				B23968C326424DD100389945 /* ChatListViewCell.swift */,
+				B23968C426424DD100389945 /* SendMessageBar.xib */,
+				B23968C526424DD100389945 /* SelectedMemberViewCell.swift */,
+				B23968C626424DD100389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift */,
+				B23968C726424DD100389945 /* MessageMenuItem.swift */,
+				B23968C826424DD100389945 /* SendImageBar.xib */,
+				B23968C926424DD100389945 /* ValidatedCredential.swift */,
+				B23968CA26424DD100389945 /* SendImageBar.swift */,
+				B23968CB26424DD100389945 /* RichTextView.swift */,
+				B23968CC26424DD100389945 /* RoundImageView.swift */,
+				B23968CD26424DD100389945 /* PermissionsEditView.xib */,
+				B23968CE26424DD100389945 /* PaddedLabel.swift */,
+				B23968CF26424DD100389945 /* AvatarWithOnlineIndicator.xib */,
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		B239692726424E9900389945 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				B2396861264247D200389945 /* AppDelegate.swift */,
-				B2396865264247D200389945 /* ViewController.swift */,
-				B2396867264247D200389945 /* Main.storyboard */,
 				B239686A264247D300389945 /* Assets.xcassets */,
 				B239686C264247D300389945 /* LaunchScreen.storyboard */,
 				B239686F264247D300389945 /* Info.plist */,
 			);
-			path = TinodsTest;
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +396,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				es,
 			);
 			mainGroup = B2396855264247D200389945;
 			productRefGroup = B239685F264247D200389945 /* Products */;
@@ -148,9 +414,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B239691726424DD200389945 /* SendImageBar.xib in Resources */,
+				B239690626424DD100389945 /* SelectedMemberViewCell.xib in Resources */,
+				B23968EB26424DD100389945 /* LaunchScreen.storyboard in Resources */,
 				B239686E264247D300389945 /* LaunchScreen.storyboard in Resources */,
+				B239690F26424DD200389945 /* ChatListViewCell.xib in Resources */,
+				B239690E26424DD200389945 /* TagsEditDialogView.xib in Resources */,
+				B23968D526424DD100389945 /* Main.strings in Resources */,
+				B239691E26424DD200389945 /* AvatarWithOnlineIndicator.xib in Resources */,
+				B239691326424DD200389945 /* SendMessageBar.xib in Resources */,
+				B23968E526424DD100389945 /* Main.storyboard in Resources */,
+				B239690C26424DD100389945 /* ContactViewCell.xib in Resources */,
+				B23968E926424DD100389945 /* LaunchScreen.strings in Resources */,
 				B239686B264247D300389945 /* Assets.xcassets in Resources */,
-				B2396869264247D200389945 /* Main.storyboard in Resources */,
+				B23968EA26424DD100389945 /* Assets.xcassets in Resources */,
+				B239690B26424DD100389945 /* ProgressView.xib in Resources */,
+				B239691C26424DD200389945 /* PermissionsEditView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,26 +482,114 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2396866264247D200389945 /* ViewController.swift in Sources */,
+				B23968F426424DD100389945 /* SettingsNotificationsViewController.swift in Sources */,
+				B23968F126424DD100389945 /* LoginViewController.swift in Sources */,
+				B239691026424DD200389945 /* DraftyButtonAttachment.swift in Sources */,
+				B239691126424DD200389945 /* AsyncTextAttachment.swift in Sources */,
+				B239690726424DD100389945 /* ContactViewCell.swift in Sources */,
+				B239690D26424DD200389945 /* ImagePicker.swift in Sources */,
+				B239692026424DD200389945 /* AddByIDViewController.swift in Sources */,
+				B239690826424DD100389945 /* TagsEditDialogView.swift in Sources */,
+				B239690926424DD100389945 /* ProgressView.swift in Sources */,
+				B23968D326424DD100389945 /* SignupViewController.swift in Sources */,
+				B23968DF26424DD100389945 /* FindPresenter.swift in Sources */,
+				B23968FB26424DD100389945 /* ContactsManager.swift in Sources */,
+				B239691A26424DD200389945 /* RichTextView.swift in Sources */,
+				B23968F226424DD100389945 /* Utils.swift in Sources */,
+				B239691226424DD200389945 /* ChatListViewCell.swift in Sources */,
+				B239690A26424DD100389945 /* PlaceholderTextView.swift in Sources */,
+				B23968F726424DD100389945 /* ImagePreviewController.swift in Sources */,
+				B23968F026424DD100389945 /* TopicInfoViewController.swift in Sources */,
+				B23968E726424DD100389945 /* MessagePresenter.swift in Sources */,
+				B239691F26424DD200389945 /* SettingsSecurityViewController.swift in Sources */,
+				B239691426424DD200389945 /* SelectedMemberViewCell.swift in Sources */,
+				B23968EC26424DD100389945 /* Cache.swift in Sources */,
+				B23968FD26424DD100389945 /* ChatListRouter.swift in Sources */,
+				B239691926424DD200389945 /* SendImageBar.swift in Sources */,
+				B23968DA26424DD100389945 /* ChatListInteractor.swift in Sources */,
+				B23968D726424DD100389945 /* NewChatTabController.swift in Sources */,
+				B23968F626424DD100389945 /* FindInteractor.swift in Sources */,
+				B23968E826424DD100389945 /* ResetPasswordViewController.swift in Sources */,
+				B23968DE26424DD100389945 /* FilePreviewController.swift in Sources */,
+				B23968FC26424DD100389945 /* ContactsSynchronizer.swift in Sources */,
+				B23968EE26424DD100389945 /* ArchivedChatsTableViewController.swift in Sources */,
+				B23968DD26424DD100389945 /* ChatListViewController.swift in Sources */,
+				B239691B26424DD200389945 /* RoundImageView.swift in Sources */,
+				B239691526424DD200389945 /* AvatarWithOnlineIndicator+TypingAnimation.swift in Sources */,
+				B23968FA26424DD100389945 /* MessageCell.swift in Sources */,
+				B239690526424DD100389945 /* TagsEditView.swift in Sources */,
+				B23968D926424DD100389945 /* MessageBubbleDecorator.swift in Sources */,
+				B239691626424DD200389945 /* MessageMenuItem.swift in Sources */,
+				B23968D826424DD100389945 /* MessageInteractor.swift in Sources */,
+				B23968F826424DD100389945 /* SettingsPersonalViewController.swift in Sources */,
+				B23968DB26424DD100389945 /* ChatListPresenter.swift in Sources */,
+				B23968ED26424DD100389945 /* EditMembersViewController.swift in Sources */,
+				B239692126424DD200389945 /* MessageView.swift in Sources */,
 				B2396862264247D200389945 /* AppDelegate.swift in Sources */,
+				B23968E626424DD100389945 /* LargeFileHelper.swift in Sources */,
+				B23968E426424DD100389945 /* AccountSettingsViewController.swift in Sources */,
+				B23968E026424DD100389945 /* MessageViewController+SendMessageBarDelegate.swift in Sources */,
+				B23968E126424DD100389945 /* AttributedStringFormatter.swift in Sources */,
+				B23968E226424DD100389945 /* NewGroupViewController.swift in Sources */,
+				B239691D26424DD200389945 /* PaddedLabel.swift in Sources */,
+				B239690226424DD100389945 /* PermissionsEditViewController.swift in Sources */,
+				B23968F526424DD100389945 /* MessageViewController.swift in Sources */,
+				B239690326424DD100389945 /* AvatarWithOnlineIndicator.swift in Sources */,
+				B23968FF26424DD100389945 /* FindViewController.swift in Sources */,
+				B23968FE26424DD100389945 /* KeyboardInfo.swift in Sources */,
+				B239690026424DD100389945 /* MessageViewLayout.swift in Sources */,
+				B239691826424DD200389945 /* ValidatedCredential.swift in Sources */,
+				B23968E326424DD100389945 /* CredentialsViewController.swift in Sources */,
+				B23968EF26424DD100389945 /* BlockedContactsTableViewController.swift in Sources */,
+				B23968F326424DD100389945 /* SettingsHelpViewController.swift in Sources */,
+				B239690426424DD100389945 /* SendMessageBar.swift in Sources */,
+				B23968D426424DD100389945 /* MessageViewController+Keyboard.swift in Sources */,
+				B23968D626424DD100389945 /* UiUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B2396867264247D200389945 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2396868264247D200389945 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B239686C264247D300389945 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B239686D264247D300389945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B239687B26424DD100389945 /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239687C26424DD100389945 /* zh-Hans */,
+				B239687E26424DD100389945 /* en */,
+				B239688426424DD100389945 /* es */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		B239688F26424DD100389945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239689026424DD100389945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B239689526424DD100389945 /* LaunchScreen.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239689626424DD100389945 /* zh-Hans */,
+				B239689726424DD100389945 /* es */,
+			);
+			name = LaunchScreen.strings;
+			sourceTree = "<group>";
+		};
+		B239689926424DD100389945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239689A26424DD100389945 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -354,7 +721,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z96TS9T74Z;
-				INFOPLIST_FILE = TinodsTest/Info.plist;
+				INFOPLIST_FILE = TinodsTest/Resourses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +741,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z96TS9T74Z;
-				INFOPLIST_FILE = TinodsTest/Info.plist;
+				INFOPLIST_FILE = TinodsTest/Resourses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
